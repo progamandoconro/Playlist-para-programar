@@ -6,6 +6,7 @@ Escucha canciones al azar en Raspberry conectada a Arduino Micro.
   Requerimientos: 
   
   - Arduino Leonardo o Micro, Raspberry pi (or cualquier computadora). Cornetas o audífonos.  
+  - Raspbian OS minimal con login automático. 
   - Instala vlc (``sudo apt install vlc``).
   - Clona este repo en ``/home/pi`` (modifica si necesitas).
   
