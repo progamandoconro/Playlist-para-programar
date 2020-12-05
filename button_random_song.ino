@@ -26,7 +26,7 @@
 */
 
 #include "Keyboard.h"
-boolean off = true;
+boolean off = false;
 const int buttonPin = 4;
 
 void setup() {
@@ -35,12 +35,12 @@ void setup() {
 }
 
 void loop() {
-  if (off == true) {
+  if (off == false) {
     delay(1000);
     Keyboard.press(KEY_LEFT_CTRL);
     Keyboard.write('c');
     Keyboard.releaseAll();
-    off = false;
+    off = true;
   }
 
   if (buttonState == true) {
