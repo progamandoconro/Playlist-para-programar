@@ -22,6 +22,7 @@ Escucha canciones al azar en Raspberry conectada a Arduino Micro.
   - Utiliza el botón de reset para detener la música
   - Una cerveza y Rock and Roll
   
+  Adicionalmente, si tienes un control remoto, puedes revisar ``remote_control_VLC.ino`` para agregarlo a tu circuito. 
   
 <html> <img src="https://github.com/programandoconro/Playlist-para-programar/blob/master/arduraspi.png" /> </html>
 
